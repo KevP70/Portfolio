@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>CV en ligne de Kevin</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
+
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                <i class="fas fa-bars fa-lg"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="myNavbar">
+            <ul class="nav nav-pills navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#about">Moi</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Compétences</a></li>
+                <li class="nav-item"><a class="nav-link" href="#experience">Expériences</a></li>
+                <li class="nav-item"><a class="nav-link" href="#education">Formations</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#recommandations">Recommandations</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="about" class="container-fluid">
+
+        <!--  "Si je veux mettre une photo"
+        <div class="col-8 col-lg-4 profile-picture">
+            <img src="" alt="" class="rounded-circle">
+        </div>
+        -->
+
+        <div class="heading">
+            <h1>Hello, c'est moi Kevin</h1>
+            <h3>Développeur débutant en formation</h3>
+        </div>
+        <div class="text-center">
+            <button class="button1">
+                <a class="link" href="https://fr.linkedin.com/in/kevin-petronelli-3039621bb" target="blank">Mon Linkedin</a>
+            </button>
+        </div>
+    </section>
+
+    <section id="skills" class="container">
+        <div>
+            <div class="red-divider"></div>
+            <div class="heading">
+                <h2>Compétences</h2>
+            </div>
+            <div class="text-center mb-5">
+                <p style="color: red; font-size: 20px;">Autant aller vérifier directement sur mon Github plutôt que de vous faire subir le suplice des progress-bar avec des % !</p>
+                <button class="button2">
+                <a class="link" href="https://github.com/KevP70" target="blank">Mon Github</a>
+                </button>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="heading">
+                <h2>Langues</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="education-block">
+                        <h3>Français -> Langue maternelle</h3>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="education-block">
+                        <h3>Anglais -> Bonnes notions</h3>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="education-block">
+                        <h3>Espagnol -> Couramment</h3>
+                        <h4>Voyage en Argentine</h4>
+                        <p class="text-muted">10/2016 - 08/2017</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="education-block">
+                        <h3>Japonais -> Quelques bases</h3>
+                        <h4>Voyage au Japon</h4>
+                        <p class="text-muted">08/2018 - 02/2019</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <div class="white-divider"></div>
+            <div class="heading">
+                <h2>Expériences Professionelles</h2>
+            </div>
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-badge"><span class="fas fa-briefcase"></span></div>
+                    <div class="timeline-panel-container">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>C2P (Déplacement France entière)</h3>
+                                <h4>Agent de sécurité électrique</h4>
+                                <p class="text-muted"><small class="fas fa-clock"></small> 09/2019 - 03/2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge"><span class="fas fa-briefcase"></span></div>
+                    <div class="timeline-panel-container-inverted">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>CF2P (Lure 70)</h3>
+                                <h4>Agent réceptionniste</h4>
+                                <p class="text-muted"><small class="fas fa-clock"></small> 04/2019 - 09/2019</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge"><span class="fas fa-briefcase"></span></div>
+                    <div class="timeline-panel-container">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>PSA Sochaux</h3>
+                                <h4>Cariste</h4>
+                                <p class="text-muted"><small class="fas fa-clock"></small> 10/2017 - 05/2018</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge"><span class="fas fa-briefcase"></span></div>
+                    <div class="timeline-panel-container-inverted">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>Yorktown apoyo San-Juan (Argentine)</h3>
+                                <h4>Professeur de français</h4>
+                                <p class="text-muted"><small class="fas fa-clock"></small> 01/2017 - 04/2017</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge"><span class="fas fa-briefcase"></span></div>
+                    <div class="timeline-panel-container">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>TSO caténaire (Déplacement France entière)</h3>
+                                <h4>Préparateur de parcs</h4>
+                                <p class="text-muted"><small class="fas fa-clock"></small>09/2015 - 07/2016</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge"><span class="fas fa-briefcase"></span></div>
+                    <div class="timeline-panel-container-inverted">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>SEA Tours-Bordeaux (Base de Villognon 16)</h3>
+                                <h4>Préparateur consoles</h4>
+                                <p class="text-muted"><small class="fas fa-clock"></small>05/2015 - 08/2015</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <div class="red-divider"></div>
+            <div class="heading">
+                <h2>Formations</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="education-block">
+                        <h5>2017</h5>
+                        <span class="fas fa-graduation-cap"></span>
+                        <h3>JB formation (Voujeaucourt)</h3>
+                        <div class="red-divider"></div>
+                        <h4>CACES R489 2 et 3</h4>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="education-block">
+                        <h5>2016</h5>
+                        <span class="fas fa-graduation-cap"></span>
+                        <h3>TSO caténaire</h3>
+                        <div class="red-divider"></div>
+                        <h4>CACES PEMP R386 3B</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="education-block">
+                        <h5>2012</h5>
+                        <span class="fas fa-graduation-cap"></span>
+                        <h3>Lycée Luxembourg (Vesoul 70)</h3>
+                        <div class="red-divider"></div>
+                        <h4>BAC Système Electonique Numérique</h4>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="education-block">
+                        <h5>2011</h5>
+                        <span class="fas fa-graduation-cap"></span>
+                        <h3>Lycée Luxembourg (Vesoul 70)</h3>
+                        <div class="red-divider"></div>
+                        <h4>BEP Système Electonique Numérique</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <div class="white-divider"></div>
+            <div class="heading">
+                <h2>Portfolio</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="" target="_blank">
+                        <img class="img-thumbnail" src="" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="" target="_blank">
+                        <img class="img-thumbnail" src="" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="" target="_blank">
+                        <img class="img-thumbnail" src="" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="" target="_blank">
+                        <img class="img-thumbnail" src="" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="" target="_blank">
+                        <img class="img-thumbnail" src="" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="" arget="_blank">
+                        <img class="img-thumbnail" src="" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="recommandations">
+        <div class="container">
+            <div class="red-divider"></div>
+            <div class="heading">
+                <h2>Recommandations</h2>
+            </div>
+            <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <!-- "Ecrire les recommandations"
+                        <h3></h3>
+                        <h4></h4>
+                        -->
+                    </div>
+                    <div class="carousel-item">
+                        <!-- "Ecrire les recommandations"
+                        <h3></h3>
+                        <h4></h4>
+                        -->
+                    </div>
+                    <div class="carousel-item">
+                        <!-- "Ecrire les recommandations"
+                        <h3></h3>
+                        <h4></h4>
+                        -->
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#myCarousel" data-slide="prev" role="button">
+                    <span class="fas fa-chevron-left fa-2x"></span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" data-slide="next" role="button">
+                    <span class="fas fa-chevron-right fa-2x"></span>
+                </a>
+            </div>
+        </div>
+
+    </section>
+    <section id="contact">
+        <div class="container">
+            <div class="white-divider"></div>
+            <div class="heading">
+                <h2>Contact</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <form id="contact-form" method="post" action="contact.php" role="form">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="firstname">Prénom *</label>
+                                <input id="firstname" type="text" name="firstname" class="form-control" placeholder="Votre Prénom">
+                                <p class="comments"></p>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="name">Nom *</label>
+                                <input id="name" type="text" name="name" class="form-control" placeholder="Votre Nom">
+                                <p class="comments"></p>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email">Email *</label>
+                                <input id="email" type="text" name="email" class="form-control" placeholder="Votre Email">
+                                <p class="comments"></p>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="phone">Téléphone</label>
+                                <input id="phone" type="tel" name="phone" class="form-control" placeholder="Votre Téléphone">
+                                <p class="comments"></p>
+                            </div>
+                            <div class="col-md-12">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" class="form-control" placeholder="Votre Message" rows="4"></textarea>
+                                <p class="comments"></p>
+                            </div>
+                            <div class="col-md-12">
+                                <p>* Ces informations sont requises.
+                                </p>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="submit" class="button1" value="Envoyer">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="text-center">
+        <a href="#about">
+            <span class="fas fa-chevron-up"></span>
+        </a>
+    </footer>
+
+</body>
+
+</html>

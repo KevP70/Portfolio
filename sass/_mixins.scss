@@ -1,0 +1,11 @@
+@mixin triangle($color: #fff, $size: 14px) {
+    position: absolute;
+    top: 27px;
+    right: $size * -1;
+    display: inline-block;
+    border-top: $size solid transparent;
+    border-left: $size solid $color;
+    border-right: 0 solid $color;
+    border-bottom: $size solid transparent;
+    content: " ";
+}

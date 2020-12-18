@@ -1,0 +1,22 @@
+%button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 18px 50px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in 0s;
+    background: transparent;
+    font-weight: $font-bold;
+    text-transform: $txt-upper;
+    cursor: pointer;
+}
+
+%divider {
+    width: 100px;
+    height: 2px;
+    margin: 0 auto 20px;
+}
+
+%time {
+    content: " ";
+    display: table;
+}

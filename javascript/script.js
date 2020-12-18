@@ -36,3 +36,10 @@ $(function() {
         });
     });
 })
+
+$(document).ready(function() {
+    $(".button1, .button2").click(function() {
+        window.open($(this).find("a").attr("href"), '_blank');
+        return false;
+    });
+});
